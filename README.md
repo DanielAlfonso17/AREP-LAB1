@@ -50,7 +50,7 @@ ejecutamos mvn para compilar
 ~~~
 mvn package 
 ~~~
-![build](./PantallazosLab/buildPackage.PNG)
+![build](./PantallazosLab/buildPackage.png)
 En el proyecto contamos con unos archivos de prueba, si desea incluir sus propios archivos
 en esta carpeta podrá hacerlo con libertad. Aquí tendremos los archivos que procederemos a probar.
 Para la ejecución de nuestro proyecto con el siguiente comando utilizando el JAR generando 
@@ -59,7 +59,13 @@ en la compilación previa.
 java -cp target\OODesign-1.0-SNAPSHOT.jar edu.escuelaing.OODesign.App ArchivosPrueba\archivo1
 ~~~
 Como resultado de la ejecución podremos observar lo siguiente en consola 
-![res](./PantallazosLab/resultadoPrueba1Con.PNG)
+![res](./PantallazosLab/resultadoPrueba1Con.png)
+
+Podemos genera la documentación del proyecto con el comando 
+~~~
+mvn javadoc:javadoc
+~~~
+Los archivos html de documentación se guardaran en el directorio target/site
 ## Ejecucion de pruebas 
 Podemos ejecutar para la realización de las pruebas:  
 ~~~
@@ -67,7 +73,7 @@ mvn package ó mvn test
 ~~~
 El resultado de las pruebas es exitoso como podemos ver. 
 
-![result](./PantallazosLab/resultadoTest.PNG)
+![result](./PantallazosLab/resultadoTest.png)
 Se probaron los siguientes casos, que fueron pedidos se mostraran las tablas de los valores y sus 
 respectivos resultados  y comparación con las pruebas realizadas 
 
@@ -77,8 +83,8 @@ Datos
 Resultado teórico:
 ![uno](./PantallazosLab/resultadoPrueba1.PNG) 
 Resultado obtenido: 
-![uno](./PantallazosLab/resultadoPrueba1Con.PNG)
-![uno](./PantallazosLab/resultadoPrueba3Con.PNG)
+![uno](./PantallazosLab/resultadoPrueba1Con.png)
+![uno](./PantallazosLab/resultadoPrueba3Con.png)
 
 ##### Prueba 2 
 Datos 
@@ -90,7 +96,7 @@ Resultado Esperado:
 
 Resultado Obtenido:
 
-![uno](./PantallazosLab/resultadoPrueba2Con.PNG)
+![uno](./PantallazosLab/resultadoPrueba2Con.png)
 
 Como podemos observar, se lograron con éxito las pruebas establecidas. Podemos usar 
 este programa, para probar distintos cálculos matemáticos además es extensible. Ya que 

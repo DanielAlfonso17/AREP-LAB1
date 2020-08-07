@@ -80,15 +80,24 @@ respectivos resultados  y comparación con las pruebas realizadas
 ##### Prueba 1 
 Datos 
 ![uno](./PantallazosLab/casosPrueba1.PNG)
+
+
 Resultado teórico:
+
+
 ![uno](./PantallazosLab/resultadoPrueba1.PNG) 
+
+
 Resultado obtenido: 
+
 ![uno](./PantallazosLab/resultadoPrueba1Con.png)
 ![uno](./PantallazosLab/resultadoPrueba3Con.png)
 
 ##### Prueba 2 
 Datos 
 ![uno](./PantallazosLab/casosPrueba2.PNG)
+
+
 Resultado Esperado:
 
 ![uno](./PantallazosLab/resultadoPrueba21.PNG)

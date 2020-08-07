@@ -56,7 +56,7 @@ en esta carpeta podrá hacerlo con libertad. Aquí tendremos los archivos que pr
 Para la ejecución de nuestro proyecto con el siguiente comando utilizando el JAR generando 
 en la compilación previa.  
 ~~~
-java -cp target\OODesign-1.0-SNAPSHOT.jar edu.escuelaing.OODesign.App ArchivosPrueba\archivo1
+java -cp target\miprimera-app-1.0-SNAPSHOT.jar edu.escuelaing.arep.app.App ArchivosPrueba\archivo1
 ~~~
 Como resultado de la ejecución podremos observar lo siguiente en consola 
 ![res](./PantallazosLab/resultadoPrueba1Con.png)
